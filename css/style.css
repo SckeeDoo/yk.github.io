@@ -257,6 +257,8 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 .bg-light-gray {background-color:#f7f7f7}
 .bg-very-light-gray {background-color:#fafafa}
 .bg-deep-pink {background-color:#ff214f;}
+.bg-deep-purple {background-color: #5c3cff;}
+
 .bg-transparent-white { background-color: rgba(255,255,255,0.3); background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(37%, rgba(255,255,255,0)), color-stop(96%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 ); }
 .bg-transparent-black { background-color: rgba(0,0,0,0); background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0)), color-stop(37%, rgba(0,0,0,0)), color-stop(96%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1))); background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 ); }
 .bg-white-opacity { background-color: rgba(255, 255, 255, 0.85); }
@@ -3217,7 +3219,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 
 .feature-box {overflow: hidden;position: relative;text-align: center; cursor: pointer}
 .feature-box .content {padding: 35px 15px;}
-.feature-box:before, .feature-box .content:before, .feature-box:after, .feature-box .content:after{display: inline-block; position:absolute; content:""; background-color:#ff214f; z-index: 1}
+.feature-box:before, .feature-box .content:before, .feature-box:after, .feature-box .content:after{display: inline-block; position:absolute; content:""; background-color: #5c3cff; z-index: 1}
 .feature-box:before, .feature-box .content:before {right:0; top:0; transition-duration:0.5s; -webkit-transition-duration:0.5s; -moz-transition-duration:0.5s; -ms-transition-duration:0.5s; -o-transition-duration:0.5s;}
 .feature-box:after, .feature-box .content:after {left:0; bottom:0; transition-duration:0.5s; -webkit-transition-duration:0.5s; -moz-transition-duration:0.5s; -ms-transition-duration:0.5s; -o-transition-duration:0.5s;}
 .feature-box:hover:before, .feature-box:hover:after{transform:scaleY(1); transition-duration:0.5s; -webkit-transition-duration:0.5s; -moz-transition-duration:0.5s; -ms-transition-duration:0.5s; -o-transition-duration:0.5s;}
@@ -3262,8 +3264,9 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .feature-box.feature-box-7 .box .content {display:table-cell; height: 100%; vertical-align: middle; padding: 0; position: relative; top: 30px;}
 .feature-box.feature-box-7 .box .content .details {opacity: 0;}
 .feature-box.feature-box-7 .box:hover .content .details {opacity: 1;}
-.feature-box.feature-box-7 .box:hover .content {top: 0; border-bottom-color: #ff214f;}
-.feature-box.feature-box-7 .box:hover i {color: #ff214f }
+.feature-box.feature-box-7 .box:hover .content {top: 0; border-bottom-color: #5c3cff;}
+.feature-box.feature-box-7 .box:hover i {color: #5c3cff
+}
 .container .feature-box.feature-box-7 .box .content {top: 43px;}
 .container .feature-box.feature-box-7 .box:hover .content {top: 0;}
 
@@ -3278,7 +3281,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 /* feature box style 9 */
 .feature-box-9 i {position: relative; transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; top:0}
 .feature-box-9:hover i { top: -8px; color: #fff }
-.feature-box-9:hover p {color: #ff214f;}
+.feature-box-9:hover p {color: #5c3cff;}
 .feature-box-9 .text-bottom-line {margin-bottom: 15px}
 .feature-box-9:hover .text-bottom-line { border-top:45px solid; margin-bottom:0 }
 
@@ -3349,7 +3352,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 
 /* counter box style 3 */
 .counter-box-3 .counter-box {display: inline-block; width: 140px; padding: 0; vertical-align: top; text-align: center; position: relative;}
-.counter-box-3 .counter-box:after {position: absolute; right: 0; width: 1px; height: 36px; background-color: #eb214b; content: ""; top: 8px;}
+.counter-box-3 .counter-box:after {position: absolute; right: 0; width: 1px; height: 36px; background-color: #5c3cff; content: ""; top: 8px;}
 .counter-box-3 .counter-box:last-child:after {width: 0;}
 .counter-box-3 .counter-box .number {display: block; font-weight: 400; font-size: 32px; line-height: 30px; }
 .counter-box-3 .counter-box span {font-weight: 400; font-size: 12px; line-height: 28px; text-transform: uppercase;}
