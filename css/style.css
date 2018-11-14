@@ -109,6 +109,9 @@ h6 {font-size:25px; line-height:30px}
 .text-light-gray {color:#d6d5d5}
 .text-very-light-gray {color:#ededed}
 .text-deep-pink {color:#ff214f}
+.text-deep-purple {color: #5c3cff
+}
+
 
 /* dropcap */
 .first-letter {float: left; font-size: 50px; line-height: auto; margin: 0 20px 0 0; text-align: center; padding: 10px 0; font-weight: 600}
